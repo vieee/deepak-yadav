@@ -25,6 +25,7 @@ import tero from "../assets/company/tero.png";
 import jpmc from "../assets/company/jpmc.png";
 import tis from "../assets/company/tis.png";
 import abstrct from "../assets/company/abstrct.png";
+import rur from "../assets/company/rur.png";
 
 export const navLinks = [
   {
@@ -166,11 +167,23 @@ const experiences = [
     company_name: "Abstrct",
     icon: abstrct,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Mar 2021",
+    date: "Dec 2020 - Mar 2021",
     points: [
       "Developed responsive components on the website, improving the page-load speed.",
       "Created Barcode, QR code & wish-list on the website. Implemented responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Technical Support Intern",
+    company_name: "RUR Greenlife Pvt. Ltd.",
+    icon: rur,
+    iconBg: "#E6DEDD",
+    date: "Jul 2019 - Feb 2020",
+    points: [
+      "Established a network to transfer feedback data for project to respective team assignees in Excel.",
+      "Created a backend which ensures robust storage.",
+      "Created a VBA layout for data entry task.",
     ],
   },
 ];
