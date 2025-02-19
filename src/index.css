@@ -126,6 +126,20 @@
   transform: translateZ(0);
 }
 
+html::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 2px solid rgba(245,245,245,0.2);
+} 
+ 
+html::-webkit-scrollbar-thumb {
+  background: #8e5ef7;
+  border: 2px solid rgba(245,245,245,0.8);
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
